@@ -8,6 +8,7 @@ require 'augeas'
 
 @@config = YAML.load_file("config.yml")
 
+module Hostname
 class Host_change
 
    def change_files
@@ -64,4 +65,5 @@ class Host_change
    elsif ans.capitalize == 'N'
        end
   end
+end
 end
