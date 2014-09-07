@@ -15,11 +15,11 @@ Below are packages needed on client and install instructions.
 
 ##Install puppet agent on client
 
-$ curl -k https://puppetmaster.dc.rr.com:8140/packages/current/install.bash | sudo bash <cr>
+- $ curl -k https://puppetmaster.dc.rr.com:8140/packages/current/install.bash | sudo bash <cr>
 
 ##Run hostname change program. No reboot required.
 
-$ ./cfn_v5.rv <cr>
+- $ ./cfn_v5.rv <cr>
 
 ##On Puppet Master
 
@@ -28,6 +28,6 @@ $ ./cfn_v5.rv <cr>
 
 ##On client
 
-$ puppet agent -t <cr>
+- $ puppet agent -t <cr>
 
 
