@@ -15,7 +15,7 @@ Below are packages needed on client and install instructions.
 
 ##Install puppet agent on client
 
-- $ curl -k https://puppetmaster.dc.rr.com:8140/packages/current/install.bash | sudo bash <cr>
+- $ curl -k https://puppetmaster.example.com:8140/packages/current/install.bash | sudo bash <cr>
 
 ##Run hostname change program. No reboot required.
 
