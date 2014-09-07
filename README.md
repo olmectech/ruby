@@ -6,12 +6,12 @@ Below are packages needed on client and install instructions.
 
 ##Packages needed by client
 
-$ yum -y groupinstall 'Development Tools' <cr>
-$ yum -y install ruby <cr> v 1.9.3 <cr>
-$ yum -y install gcc ruby-devel rubygems <cr>
-$ yum -y install augeas <cr>
-$ yum -y install augeas-devel <cr>
-$ rpm -i ruby-augeas-0.5.0-0.9999.el6.x86_64.rpm <cr>
+- $ yum -y groupinstall 'Development Tools' <cr>
+- $ yum -y install ruby <cr> v 1.9.3 <cr>
+- $ yum -y install gcc ruby-devel rubygems <cr>
+- $ yum -y install augeas <cr>
+- $ yum -y install augeas-devel <cr>
+- $ rpm -i ruby-augeas-0.5.0-0.9999.el6.x86_64.rpm <cr>
 
 ##Install puppet agent on client
 
