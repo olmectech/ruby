@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
+#
+# This program changes hostname and gerenated new Puppet certificate.
+#
 
 require 'yaml'
 require 'augeas'
