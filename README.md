@@ -23,8 +23,8 @@ $ ./cfn_v5.rv <cr>
 
 ##On Puppet Master
 
-$ puppet cert list <cr>
-$ puppet cert sign <hostname> <cr>
+- $ puppet cert list <cr>
+- $ puppet cert sign <hostname> <cr>
 
 ##On client
 
