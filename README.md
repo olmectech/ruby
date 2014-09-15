@@ -19,7 +19,7 @@ Below are packages needed on client and install instructions.
 
 ##Run hostname change program. No reboot required.
 
-- $ ./cfn_v5.rv <cr>
+- $ ./cfn_v6.rv <cr>
 
 ##On Puppet Master
 
